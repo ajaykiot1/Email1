@@ -1,0 +1,19 @@
+<web-app>
+	<servlet>
+		<servlet-name>SendMail</servlet-name>
+		<servlet-class>SendMail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendMail</servlet-name>
+		<url-pattern>/mail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReadMail</servlet-name>
+		<servlet-class>ReadMail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadMail</servlet-name>
+		<url-pattern>/read</url-pattern>
+	</servlet-mapping>
+</web-app>

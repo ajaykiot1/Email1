@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Mail</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<style type="text/css">
+		body{
+	background-color:#80F3E4;
+	}
+		.outer{
+		margin:auto;
+		width:65%;
+		height:350px;
+		background-color:#809EF3;
+		border: 1px solid #027E26;
+		border-radius: 4px;
+		box-sizing: border-box;
+		}
+		header{
+		margin:auto;
+		width:75%;
+		height:80px;
+		
+		}
+			#poster{
+			margin:1%;
+			width:97%;
+			height:60px;
+			background-color:#28A34B;
+			display:inline-block;
+			border: 1px solid #027E26;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}	
+	.content{
+	margin:auto;
+	background-color:white;
+	width:75%;
+	height:200px;
+	border: 1px solid #027E26;
+	border-radius: 4px;
+	box-sizing: border-box;
+	}
+		
+	h1{
+	color:white;
+	font-family:'Lobster', cursive;
+	padding: 0% 0% 0% 0%;
+	display:inline-block;
+	margin-left:25%;
+	}	
+	
+	input[type=button] {
+			width: 35%;
+			background-color: #4F8F62;
+			color: white;
+			padding: 14px 20px;
+			margin-left: 10%;
+			margin-top:9%;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family:'Lobster', cursive;
+			font-size:20px;
+			}
+	</style>
+	
+</head>
+<body><br><br><br>
+	<div class="outer">
+		<header>
+			<div id="logo"></div>
+			<div id="poster">
+			<h1>Welcome to mailing system</h1>
+			</div>
+		</header>
+		<div class="content">
+			<a href="sendmail.jsp"><input type="button" value="Send Mail" /></a>
+			<a href="readmail"><input type="button" value="Read Mail" /></a>
+		</div>
+	</div>	
+</body>
+</html>
