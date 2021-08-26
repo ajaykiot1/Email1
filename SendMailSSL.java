@@ -53,6 +53,6 @@ class MyAuth extends javax.mail.Authenticator
 {
 	protected PasswordAuthentication getPasswordAuthentication()
 	{
-		return new PasswordAuthentication("iplducact15@gmail.com", "ducat15#");
+		return new PasswordAuthentication("example@gmail.com", "password");
 	}
 }
